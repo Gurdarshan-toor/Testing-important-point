@@ -1,0 +1,55 @@
+1. Functionality Testing:
+User Registration & Login: Verify karein ki new user registration aur login system sahi se kaam kar raha ho. (e.g., password reset, email validation)
+Product Search & Filter: Product search functionality, filters (category, price range, etc.) aur sort options ko test karein.
+Product Details: Har product ka page sahi details (images, price, description) show kar raha ho.
+Add to Cart & Checkout Process: Add to cart functionality, cart view, quantity update, aur checkout process ko test karein.
+Payment Gateway Integration: Different payment options (credit/debit card, wallet, COD) ko test karein, aur transaction success/failure responses verify karein.
+Order Confirmation & Email Notifications: Order confirmation screen aur email notifications check karein.
+Admin Panel (if applicable): Admin ke liye product management, order management aur report generation verify karein.
+
+2. Usability Testing:
+Navigation: Website ka navigation simple aur intuitive hona chahiye.
+Responsive Design: Different devices aur screen sizes par website ki functionality aur layout ko test karein.
+User Interface (UI): UI elements (buttons, links, forms) ka placement, size aur accessibility test karein.
+Load Time & Performance: Page load time ko test karein; slow loading pages users ko frustrate kar sakte hain.
+Checkout Process: Checkout steps ko simple aur user-friendly banayein.
+
+3. Security Testing:
+SSL Certificate: Website ka SSL certificate installed hai ya nahi, jo data ko encrypt karein.
+Data Privacy: Users ke personal data (addresses, payment details) ko securely handle kiya gaya ho.
+Payment Security: Payment gateway secure hai, aur sensitive information ka leakage nahi hona chahiye.
+SQL Injection & XSS Testing: Website ko potential security vulnerabilities (jaise SQL injection, cross-site scripting) ke liye test karein.
+Login Security: Strong password policies aur 2-factor authentication ko test karein.
+
+4. Performance Testing:
+Page Load Speed: Website ka page load speed optimize ho, taaki user experience acha ho.
+Stress Testing: Zyada traffic (simultaneous users) ka impact test karein.
+Scalability: Website ka performance high traffic load ke under kaise perform karta hai, ye verify karein.
+Database Load: Database ko heavy traffic pe check karein, aur performance degrade hone ki situation ko monitor karein. 
+
+5. Cross-browser Testing:
+Browser Compatibility: Website ko popular browsers (Chrome, Firefox, Safari, Edge) par test karein.
+Operating Systems Compatibility: Website ko different OS (Windows, macOS, Linux) par test karein.
+
+6. Content Testing:
+Spelling & Grammar: Product descriptions, terms, aur other content mein spelling aur grammar errors na ho.
+Content Consistency: Har page par content consistent ho, jaise product pricing, images, etc.
+Multilingual Support: Agar website multilingual hai, to language switch aur translations ko verify karein.
+
+7. Accessibility Testing:
+WCAG Compliance: Website ko accessibility standards (WCAG 2.0/2.1) ke according test karein.
+Screen Reader Compatibility: Website ko screen readers ke sath test karein taaki visually impaired users ke liye accessible ho.
+
+8. Search Engine Optimization (SEO):
+SEO Meta Tags: Meta titles, descriptions aur alt text sahi tarike se implement kiye gaye ho.
+URL Structure: SEO-friendly URLs use kiye ja rahe ho (short aur descriptive).
+Indexing & Sitemap: Website ka sitemap updated ho aur search engines ke liye indexed ho.
+
+9. Error Handling & Recovery Testing:
+Error Pages: Agar user kisi broken link ya page not found page pe jata hai, to sahi error message dikhai de.
+Transaction Failures: Agar transaction fail hoti hai, to proper error messages aur recovery options diye jaayein.
+Data Integrity: Agar website crash hoti hai, to user data (cart, payment) ka loss na ho.
+
+10. Backup & Recovery Testing:
+Database Backup: Database ka regular backup hona chahiye.
+Recovery Process: Website failure ya data loss ke baad recovery process ka test karein.
